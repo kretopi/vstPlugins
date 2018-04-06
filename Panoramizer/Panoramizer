@@ -1,0 +1,11 @@
+Plugin make stereo file from mono.
+
+It has 10 bands with are randomly moved in panorama.
+
+Parameters:
+Dry
+Wet
+Time - how fast bands are moving
+Mono - how far are moving (0 - stereo, 50 - mono)
+
+Made with Pure Data and Heavy.
