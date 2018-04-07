@@ -9,7 +9,7 @@
 #X obj 594 308 *~;
 #X obj 665 314 *~;
 #X obj 695 200 r wet @hv_param 0 1 1;
-#N canvas 0 75 1280 703 vcf 0;
+#N canvas 0 75 1280 703 vcf 1;
 #X obj 267 93 vcf~;
 #X msg 288 66 1;
 #X obj 288 39 loadbang;
@@ -311,6 +311,7 @@
 #X obj 779 534 *;
 #X obj 1248 522 r time @hv_param 1 5 2;
 #X obj 1182 616 *;
+#X obj 891 769 hip~ 12000;
 #X connect 0 0 98 0;
 #X connect 0 0 99 0;
 #X connect 1 0 0 2;
@@ -497,6 +498,7 @@
 #X connect 168 0 10 0;
 #X connect 168 0 217 0;
 #X connect 168 0 244 0;
+#X connect 168 0 301 0;
 #X connect 169 0 101 0;
 #X connect 170 0 169 0;
 #X connect 171 0 172 0;
@@ -582,8 +584,6 @@
 #X connect 241 1 240 1;
 #X connect 242 0 241 0;
 #X connect 243 0 217 1;
-#X connect 244 0 262 0;
-#X connect 244 0 263 0;
 #X connect 245 0 244 2;
 #X connect 246 0 245 0;
 #X connect 247 0 252 0;
@@ -651,8 +651,10 @@
 #X connect 298 0 221 1;
 #X connect 299 0 300 1;
 #X connect 300 0 248 1;
+#X connect 301 0 262 0;
+#X connect 301 0 263 0;
 #X restore 610 -1 pd vcf;
-#N canvas 0 75 1280 703 vcf 0;
+#N canvas 0 75 1280 703 vcf 1;
 #X obj 267 93 vcf~;
 #X msg 288 66 1;
 #X obj 288 39 loadbang;
@@ -954,6 +956,7 @@
 #X obj 779 534 *;
 #X obj 1248 522 r time @hv_param 1 5 2;
 #X obj 1182 616 *;
+#X obj 891 769 hip~ 12000;
 #X connect 0 0 98 0;
 #X connect 0 0 99 0;
 #X connect 1 0 0 2;
@@ -1140,6 +1143,7 @@
 #X connect 168 0 10 0;
 #X connect 168 0 217 0;
 #X connect 168 0 244 0;
+#X connect 168 0 301 0;
 #X connect 169 0 101 0;
 #X connect 170 0 169 0;
 #X connect 171 0 172 0;
@@ -1225,8 +1229,6 @@
 #X connect 241 1 240 1;
 #X connect 242 0 241 0;
 #X connect 243 0 217 1;
-#X connect 244 0 262 0;
-#X connect 244 0 263 0;
 #X connect 245 0 244 2;
 #X connect 246 0 245 0;
 #X connect 247 0 252 0;
@@ -1294,6 +1296,8 @@
 #X connect 298 0 221 1;
 #X connect 299 0 300 1;
 #X connect 300 0 248 1;
+#X connect 301 0 262 0;
+#X connect 301 0 263 0;
 #X restore 471 5 pd vcf;
 #X obj 750 5 env~;
 #X obj 846 79 route 0 1;
