@@ -187,6 +187,7 @@
     <ClInclude Include="..\source\HeavyContext.hpp" />
     <ClInclude Include="..\source\HeavyContextInterface.hpp" />
     <ClInclude Include="..\source\HvSignalEnvelope.h" />
+    <ClInclude Include="..\source\HvSignalRPole.h" />
     <ClInclude Include="..\source\HvControlCast.h" />
     <ClInclude Include="..\source\HvControlPack.h" />
     <ClInclude Include="..\source\HvSignalDel1.h" />
@@ -224,6 +225,7 @@
     <ClCompile Include="..\source\HvControlUnop.c" />
     <ClCompile Include="..\source\HvControlDelay.c" />
     <ClCompile Include="..\source\HvLightPipe.c" />
+    <ClCompile Include="..\source\HvSignalRPole.c" />
     <ClCompile Include="..\source\Heavy_Panoramizer.cpp" />
     <ClCompile Include="..\source\HvHeavy.cpp" />
     <ClCompile Include="..\source\HvControlCast.c" />

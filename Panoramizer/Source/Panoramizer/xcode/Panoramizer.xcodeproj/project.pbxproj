@@ -15,6 +15,7 @@
 		BE14D238724569589B22F69F /* HvControlUnop.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */; };
 		76930517BE8FF04810682B10 /* HvControlDelay.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */; };
 		D39C4FCDBA5685538D4FCDDE /* HvLightPipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE58FA2A811A9BF79964921 /* HvLightPipe.c */; };
+		DC3BFF73C7F6A3835D60A209 /* HvSignalRPole.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */; };
 		F4C6C6151E06D60AF1EB93E2 /* Heavy_Panoramizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6337EFE5749688E8F5E6DC9 /* Heavy_Panoramizer.cpp */; };
 		F57B380CD7FFB60906DD3362 /* HvHeavy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 454F7F6845208EC973180730 /* HvHeavy.cpp */; };
 		7871CE173FE09349B703ACC9 /* HvControlCast.c in Sources */ = {isa = PBXBuildFile; fileRef = CE8C319C6B070F22AF896D3D /* HvControlCast.c */; };
@@ -42,6 +43,7 @@
 		D7C3C4B80CBBF279A145D0B1 /* HvControlVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvControlVar.h; path = ../source/HvControlVar.h; sourceTree = SOURCE_ROOT; };
 		23E6A392ADBFF734344F7AF4 /* HvMessagePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvMessagePool.h; path = ../source/HvMessagePool.h; sourceTree = SOURCE_ROOT; };
 		F96708CBF17802352EC18355 /* HvSignalEnvelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvSignalEnvelope.h; path = ../source/HvSignalEnvelope.h; sourceTree = SOURCE_ROOT; };
+		34E9434488D375100622B8DA /* HvSignalRPole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvSignalRPole.h; path = ../source/HvSignalRPole.h; sourceTree = SOURCE_ROOT; };
 		6D9F11479DC81FD5A48D9271 /* HvControlCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvControlCast.h; path = ../source/HvControlCast.h; sourceTree = SOURCE_ROOT; };
 		D03E173EB4903B1B5F682157 /* HvControlPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvControlPack.h; path = ../source/HvControlPack.h; sourceTree = SOURCE_ROOT; };
 		D4861C4A16A1566FA36D5689 /* HvSignalDel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HvSignalDel1.h; path = ../source/HvSignalDel1.h; sourceTree = SOURCE_ROOT; };
@@ -74,6 +76,7 @@
 		3F64D733D40AF05E19D2FF0F /* HvControlUnop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvControlUnop.c; path = ../source/HvControlUnop.c; sourceTree = SOURCE_ROOT; };
 		EEBE43C111A94FD2BF4A64B6 /* HvControlDelay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvControlDelay.c; path = ../source/HvControlDelay.c; sourceTree = SOURCE_ROOT; };
 		5CE58FA2A811A9BF79964921 /* HvLightPipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvLightPipe.c; path = ../source/HvLightPipe.c; sourceTree = SOURCE_ROOT; };
+		04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvSignalRPole.c; path = ../source/HvSignalRPole.c; sourceTree = SOURCE_ROOT; };
 		CE8C319C6B070F22AF896D3D /* HvControlCast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvControlCast.c; path = ../source/HvControlCast.c; sourceTree = SOURCE_ROOT; };
 		8063BC771379620AD9BDCA45 /* HvSignalLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvSignalLine.c; path = ../source/HvSignalLine.c; sourceTree = SOURCE_ROOT; };
 		23EABC56A4A5EFC8525EAFE1 /* HvControlIf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HvControlIf.c; path = ../source/HvControlIf.c; sourceTree = SOURCE_ROOT; };
@@ -159,6 +162,8 @@
 				2F46D6B6040C8190E879860D /* HeavyContext.hpp */,
 				9868A1195820CA643BAA0A1B /* HeavyContextInterface.hpp */,
 				F96708CBF17802352EC18355 /* HvSignalEnvelope.h */,
+				34E9434488D375100622B8DA /* HvSignalRPole.h */,
+				04A1EAEEAAF93579F0A519F1 /* HvSignalRPole.c */,
 				6D9F11479DC81FD5A48D9271 /* HvControlCast.h */,
 				D6337EFE5749688E8F5E6DC9 /* Heavy_Panoramizer.cpp */,
 				D03E173EB4903B1B5F682157 /* HvControlPack.h */,
@@ -308,6 +313,7 @@
 				BE14D238724569589B22F69F /* HvControlUnop.c in Sources */,
 				76930517BE8FF04810682B10 /* HvControlDelay.c in Sources */,
 				D39C4FCDBA5685538D4FCDDE /* HvLightPipe.c in Sources */,
+				DC3BFF73C7F6A3835D60A209 /* HvSignalRPole.c in Sources */,
 				F4C6C6151E06D60AF1EB93E2 /* Heavy_Panoramizer.cpp in Sources */,
 				F57B380CD7FFB60906DD3362 /* HvHeavy.cpp in Sources */,
 				7871CE173FE09349B703ACC9 /* HvControlCast.c in Sources */,
