@@ -1,0 +1,5 @@
+FourPointDelay is a delay with 4 bands. Each band has 4 parameters:
+- feedback - volume of feedback
+- point - center frequency of band
+- time - time of delay
+- vol - volume of band
