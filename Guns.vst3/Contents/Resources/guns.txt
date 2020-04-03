@@ -1,0 +1,21 @@
+param -name Window Size -label ms -min 0 -max 10000 -default 220;
+program short;
+program medium;
+program long;
+iolayout 2 2;
+code zWrt;
+type instrument;
+description Infos.txt;
+compatibility 1.0.5;
+
+param -name Low -label Hz -min 0 -max 20000 -default 100;
+param -name Band -label Hz -min 100 -max 20000 -default 600;
+param -name BandQ/100 -label Num -min 0 -max 1000 -default 5;
+param -name High -label Hz -min 500 -max 20000 -default 1000;
+param -name Attack -label ms -min 0 -max 100 -default 6;
+param -name Decay -label Num -min 1 -max 10 -default 4;
+param -name Release -label ms -min 0 -max 10000 -default 150;
+param -name Master -label Num -min 0 -max 1 -default 0.2;
+param -name HighVol -label Num -min 0 -max 127 -default 6;
+param -name BandVol -label Num -min 0 -max 127 -default 55;
+param -name LowVol -label Num -min 0 -max 500 -default 382;
